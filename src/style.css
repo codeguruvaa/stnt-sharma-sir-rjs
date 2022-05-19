@@ -1,0 +1,55 @@
+.boxOne{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+
+    float: left;
+
+    /* padding: 20px; */
+    /* padding-top: 25px;
+    padding-left: 50px; */
+
+    padding: 50px 45px 60px 90px;
+
+}
+
+.boxTwo{
+    width: 250px;
+    height: 250px;
+    background-color: darkcyan;
+
+    float: left;
+
+    /* margin: 25px; */
+    /* margin-left: 25px; */
+
+    /* margin: 50px 25px 65px 95px; */
+}
+
+/* BORDER CSS GOES HERE */
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: darkcyan;
+
+    /* border: 15px solid orange ; */
+
+    border-right: 15px solid orange;
+    border-bottom: 5px solid orangered;
+    
+}
+
+/* BORDER CSS SHADOW */
+    .boxOne{
+        width: 950px;
+        height: 20px;
+        background-color: darkcyan;
+        
+        box-shadow: 10px 10px 20px gray;
+
+        background-image: linear-gradient(to bottom, orange, red);
+
+        border-radius: 120px;
+    }
+
